@@ -8,10 +8,6 @@ When you turn the micro:bt on, ``||gatorEnvironment: initialize||`` the environm
 gatorEnvironment.beginEnvironment()
 ```
 
-```template
-basic.showNumber(0)
-```
-
 ## Step 2 
 When you turn the micro:bt on, ``||gatorLog: initialize||`` the data logger sensor
 
