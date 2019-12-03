@@ -15,12 +15,6 @@ When you turn the micro:bt on, ``||gatorLog: initialize||`` the data logger sens
 gatorLog.begin()
 ```
 
-```ghost
-input.onButtonPressed(Button.A, function () {
-    basic.showNumber(Math.round(gatorEnvironment.getMeasurement(measurementType.humidity)))
-})
-```
-
 ## Step 3
 ``|Download your code|`` and try it out
 
