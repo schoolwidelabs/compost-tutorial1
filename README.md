@@ -29,6 +29,8 @@ gatorEnvironment.beginEnvironment()
 
 
 ```package
-gatorMicrophone=github:sparkfun/pxt-gator-environment
-
+gatorEnvironment=github:sparkfun/pxt-gator-environment
+gatorSoil=github:sparkfun/pxt-gator-soil
+gatorLog=github:sparkfun/pxt-gator-log
+gatorRTC=github:sparkfun/pxt-gator-RTC
 ```

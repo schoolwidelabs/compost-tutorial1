@@ -5,7 +5,10 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "gatorEnvironment": "github:sparkfun/pxt-gator-environment#v1.0.13"
+        "gatorEnvironment": "github:sparkfun/pxt-gator-environment#v1.0.13",
+        "gatorSoil": "github:sparkfun/pxt-gator-soil#v1.0.3",
+        "gatorLog": "github:sparkfun/pxt-gator-log#v0.3.2",
+        "gatorRTC": "github:sparkfun/pxt-gator-rtc#v0.0.46"
     },
     "files": [
         "README.md",
