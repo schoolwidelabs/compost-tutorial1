@@ -1,14 +1,6 @@
 # Compost Tutorial
 Text for tutorial
 
-## Step 0
-This is the starter code for this project
-
-```template
-gatorLog.begin()
-gatorLog.openFile("data.csv")
-```
-
 ## Step 1
 When you turn the micro:bt on, ``||gatorEnvironment: initialize||`` the environmental sensor
 
@@ -29,7 +21,7 @@ When you turn the micro:bt on, ``||gatorLog: initialize||`` the data logger sens
 gatorLog.begin()
 ```
 
-## Step 5
+## Step 3
 ``|Download your code|`` and try it out
 
 
