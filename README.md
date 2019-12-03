@@ -14,20 +14,20 @@ When you turn the micro:bt on, ``||gatorLog: initialize||`` the data logger sens
 gatorLog.begin()
 ```
 
-## Step 3
-
-```blocks
-
-```
-
-## Step 4
-
-```blocks
-
-```
 ## Step 5
 ``|Download your code|`` and try it out
 
+
+```template
+gatorLog.begin()
+gatorLog.openFile("data.csv")
+```
+
+```ghost
+input.onButtonPressed(Button.A, function () {
+    basic.showNumber(Math.round(gatorEnvironment.getMeasurement(measurementType.humidity)))
+})
+```
 
 ```package
 gatorEnvironment=github:sparkfun/pxt-gator-environment
