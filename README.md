@@ -1,12 +1,6 @@
 # Compost Tutorial
 Text for tutorial
 
-```template
-basic.forever(function () {
-    basic.showNumber(0)
-})
-```
-
 ## Step 1
 When you turn the micro:bt on, ``||gatorEnvironment: initialize||`` the environmental sensor
 
@@ -14,10 +8,8 @@ When you turn the micro:bt on, ``||gatorEnvironment: initialize||`` the environm
 gatorEnvironment.beginEnvironment()
 ```
 
-```ghost
-input.onButtonPressed(Button.A, function () {
-    basic.showNumber(Math.round(gatorEnvironment.getMeasurement(measurementType.humidity)))
-})
+```template
+basic.showNumber(0)
 ```
 
 ## Step 2 
@@ -25,6 +17,12 @@ When you turn the micro:bt on, ``||gatorLog: initialize||`` the data logger sens
 
 ```blocks
 gatorLog.begin()
+```
+
+```ghost
+input.onButtonPressed(Button.A, function () {
+    basic.showNumber(Math.round(gatorEnvironment.getMeasurement(measurementType.humidity)))
+})
 ```
 
 ## Step 3
