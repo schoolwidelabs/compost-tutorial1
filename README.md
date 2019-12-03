@@ -1,6 +1,12 @@
 # Compost Tutorial
 Text for tutorial
 
+```template
+basic.forever(function () {
+    basic.showNumber(0)
+})
+```
+
 ## Step 1
 When you turn the micro:bt on, ``||gatorEnvironment: initialize||`` the environmental sensor
 
