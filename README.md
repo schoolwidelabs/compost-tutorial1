@@ -8,9 +8,10 @@ gatorEnvironment.beginEnvironment()
 ```
 
 ## Step 2 
+When you turn the micro:bt on, ``||gatorLog: initialize||`` the data logger sensor
 
 ```blocks
-
+gatorLog.begin()
 ```
 
 ## Step 3

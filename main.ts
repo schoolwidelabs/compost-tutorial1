@@ -1,1 +1,1 @@
- 
+gatorLog.begin()
